@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://pjudge7.github.io/patrickljudge-site/sitemap.xml
