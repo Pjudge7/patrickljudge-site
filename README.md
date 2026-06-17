@@ -1,23 +1,42 @@
-# Patrick L. Judge personal website - custom domain ready
+# Patrick L. Judge Website - Custom Domain Fix
 
-Primary domain: https://patrickljudge.com/
-Redirect/short domain: https://pljca.com/ -> https://patrickljudge.com/
+This package fixes the site launch issue by replacing the broken plain-text `index.html` with a valid, self-contained HTML website.
 
-Upload these files to the root of the GitHub repository: index.html, robots.txt, sitemap.xml, README.md, CNAME.
+## Files to upload to repo root
 
-GitHub Pages settings: Deploy from a branch -> main -> / root. Custom domain: patrickljudge.com. Enforce HTTPS once available.
+Upload these files to the root of `Pjudge7/patrickljudge-site`:
 
-Cloudflare DNS for patrickljudge.com:
-- A @ 185.199.108.153 DNS only
-- A @ 185.199.109.153 DNS only
-- A @ 185.199.110.153 DNS only
-- A @ 185.199.111.153 DNS only
-- CNAME www pjudge7.github.io DNS only
+- `index.html`
+- `robots.txt`
+- `sitemap.xml`
+- `CNAME`
+- `README.md`
 
-Cloudflare redirect for pljca.com:
-- Add proxied DNS records for @ and www (for redirect handling).
-- Create a Redirect Rule to 301 redirect pljca.com and www.pljca.com to https://patrickljudge.com/ while preserving path/query.
+## GitHub Pages settings
 
-Professional email:
-- Set up Cloudflare Email Routing or Zoho Mail for advisory@patrickljudge.com and patrick@patrickljudge.com.
-- FormSubmit action currently uses advisory@patrickljudge.com. Submit one test form after email routing is active to confirm FormSubmit forwarding.
+Use:
+
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / root
+- Custom domain: patrickljudge.com
+
+## Cloudflare DNS for patrickljudge.com
+
+Set GitHub Pages records:
+
+A @ 185.199.108.153 DNS only
+A @ 185.199.109.153 DNS only
+A @ 185.199.110.153 DNS only
+A @ 185.199.111.153 DNS only
+CNAME www pjudge7.github.io DNS only
+
+Cloudflare SSL/TLS mode should usually be Full. If GitHub HTTPS verification is not ready, wait and re-check later.
+
+## After upload
+
+Test:
+
+https://patrickljudge.com/?refresh=1
+https://www.patrickljudge.com/?refresh=1
+https://pjudge7.github.io/patrickljudge-site/?refresh=1
