@@ -1,7 +1,12 @@
-/*
-  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: DENY
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+BEGIN:VCARD
+VERSION:3.0
+N:Judge;Patrick;L.;;
+FN:Patrick L. Judge
+ORG:PLJ Consulting, Advisory & Fractional Executive Leadership
+TITLE:Chief AI Strategy & Digital Transformation (CSDO)
+TEL;TYPE=CELL:+1 (404) 421-7252
+EMAIL;TYPE=INTERNET:pjudge@pljca.com
+URL:https://www.patrickljudge.com
+URL:https://www.linkedin.com/in/patrickljudge
+ADR;TYPE=WORK:;;Atlanta\, Georgia;;;USA
+END:VCARD
