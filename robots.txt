@@ -1,13 +1,4 @@
-BEGIN:VCARD
-VERSION:3.0
-N:Judge;Patrick;L.;;
-FN:Patrick L. Judge
-ORG:PLJ Consulting, Advisory & Fractional Executive Leadership
-TITLE:Chief AI Strategy & Digital Transformation Executive
-TEL;TYPE=CELL:+14044217252
-EMAIL;TYPE=INTERNET:pjudge@pljca.com
-URL:https://patrickljudge.com/
-URL:https://www.linkedin.com/in/patrickljudge
-ADR;TYPE=WORK:;;Atlanta;GA;;United States
-NOTE:AI strategy, AI governance, responsible AI, digital transformation, PMO/EPMO modernization, operating model design, risk, compliance, board advisory, and fractional executive leadership.
-END:VCARD
+User-agent: *
+Allow: /
+
+Sitemap: https://patrickljudge.com/sitemap.xml
